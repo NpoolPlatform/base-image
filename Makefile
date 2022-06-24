@@ -1,5 +1,5 @@
 .PHONY: all
-all: deps, image
+all: deps image
 
 .PHONY: deps
 deps:

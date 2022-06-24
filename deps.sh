@@ -8,4 +8,4 @@ set all_proxy=$all_proxy
 
 rm -f /tmp/grpcurl_1.8.6_linux_x86_64.tar.gz* && \
   wget $GRPC_URL -P /tmp && \
-  tar xf grpcurl_1.8.6_linux_x86_64.tar.gz -C .
+  tar xf /tmp/grpcurl_1.8.6_linux_x86_64.tar.gz -C .
